@@ -28,5 +28,6 @@ def geocoder():
 	place_name=str(input("지명주소를 입력하세요 : "))
 	place = Place(place_name,location)
 	print(place.print_info())
-#위/경도 객체로 지정
+# 친구의 전화번호와 사는곳같은 지역위치를 같이 저장하기 위해
+# With 모듈에서의 Contact 클래스로부터 Place 클래스를 오버라이딩할 필요 있음.
 geocoder()
